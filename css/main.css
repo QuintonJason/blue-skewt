@@ -76,3 +76,31 @@ footer {
 .blue-skewt-list-item {
     background-color: #ffffff;
 }
+
+/* Item page */
+.blue-skewt-featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .blue-skewt-featured {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blue-skewt-featured-image {
+    max-width: 400px;
+}
+
+.blue-skewt-intro {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
