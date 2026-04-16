@@ -1,8 +1,20 @@
 /* Place CSS styles here */
+img {
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+h1 {
+    color: #ffffff;
 }
 
 /* make the layout page aware */
@@ -51,4 +63,16 @@ main {
 footer {
     background: powderblue;
     padding: 20px;
+}
+
+/* Items page */
+.blue-skewt-list-items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 20px;
+}
+
+.blue-skewt-list-item {
+    background-color: #ffffff;
 }
