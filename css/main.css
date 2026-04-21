@@ -52,6 +52,13 @@ h1 {
     color: #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 /* make the layout page aware */
 .blue-skewt-main-wrapper {
     min-height: 100vh;
@@ -92,12 +99,15 @@ main {
 @media screen and (max-width: 768px) {
   .blue-skewt-row {
     grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 footer {
     background: powderblue;
     padding: 20px;
+    text-align: center;
 }
 
 /* Items page */
@@ -106,6 +116,13 @@ footer {
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .blue-skewt-list-items {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 .blue-skewt-list-item {
